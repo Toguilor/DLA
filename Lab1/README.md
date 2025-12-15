@@ -32,10 +32,26 @@ Features early stopping and overfitting detection mechanisms
 
 The training converged in fewer than the maximum allowed epochs thanks to early stopping.
 On the test set, the model achieved:
-Test Loss: 0.1053
-Test Accuracy: 97.39%
-Test Precision (weighted): 97.43%
+- Test Loss: 0.1053
+- Test Accuracy: 97.39%
+- Test Precision (weighted): 97.43%
 
-Below are the metrics tracked with Weights & Biases (WandB):
+<img width="1320" height="699" alt="image" src="https://github.com/user-attachments/assets/d0592a3e-da69-4fce-8f5e-fc27df8d7daf" />
 
-<img width="1311" height="699" alt="image" src="https://github.com/user-attachments/assets/dfda0347-118e-444f-a0d1-50025e1714c4" />
+## Exercise 1.2: Adding Residual Connections
+Coming Soon - Expected Tasks:
+1. Systematically increase network depth while keeping width constant
+2. Compare performance of shallow vs. deep MLPs
+3. Analyze gradient flow and potential vanishing/exploding gradient issues
+4. Implement solutions like better weight initialization or skip connections
+
+### Comparison of MLP and ResidualMLP
+All models were trained on the MNIST dataset with the following parameters kept constant: learning rate = 1e-3, Adam optimiser.
+Residual connections provided faster convergence (training stopped at epoch 15 vs 20 for the plain MLP) and slightly better performance on the test set.
+
+<img width="1320" height="699" alt="image" src="https://github.com/user-attachments/assets/801325f3-a950-411f-b1ef-616dd8d93d85" />
+
+## Exercise 1.3: Rinse and Repeat (but with a CNN)
+
+
+
