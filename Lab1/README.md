@@ -62,5 +62,17 @@ Two model variants were implemented: a Simple CNN and a Residual CNN. The Simple
 <img width="1712" height="1048" alt="Screenshot 2025-12-15 174925" src="https://github.com/user-attachments/assets/bff709d1-b6e0-40d8-9603-b9a6b2af141d" />
 <img width="1719" height="1042" alt="Screenshot 2025-12-15 174938" src="https://github.com/user-attachments/assets/0674d1bb-4750-4f41-98cb-af3c93a4a613" />
 
+## 
+This exercise evaluates the quality of the learned representations by using the pretrained CNN as a fixed feature extractor.
+Instead of training the classifier end-to-end, features are extracted from the network using:
+model.forward_features(x)
 
+These features are then classified using classical machine learning algorithms.
+
+Feature Extraction
+- Features are extracted after global average pooling
+- Output dimensionality: out_channel × 4
+- The CNN weights are frozen during this process
+
+Baseline Classifier used is: <b> K-Nearest Neighbors (KNN) </b>
 
