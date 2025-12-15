@@ -60,9 +60,8 @@ Coming Soon - Expected Tasks:
 Two model variants were implemented: a Simple CNN and a Residual CNN. The Simple CNN applies successive convolutional layers with ReLU activation, doubling the number of channels at each step and applying max pooling every two layers. After feature extraction, a fully connected layer reduces the feature map to 128 neurons, followed by dropout and the final classification layer. The Residual CNN starts with a single convolution + batch normalization + ReLU block, followed by a configurable number of ResNet BasicBlocks (as in the original ResNet architecture), which implement skip connections over sequences of 3×3 convolutions.
 
 <p align="center">
-  <img alt="Screenshot 2025-12-15 173551" src="https://github.com/user-attachments/assets/cb6f23a5-47b8-40b6-88ff-9b8640ac81dc" width="45%" />
-  <img alt="Screenshot 2025-12-15 173606" src="https://github.com/user-attachments/assets/149bbd69-0baa-495b-86f7-2c11a8a4e3a3" width="45%" />
+  <img alt="Screenshot 2025-12-15 174925" src="https://github.com/user-attachments/assets/458a3b80-7808-446c-8af2-d1986390a6f4" width="50%" />
+  <img alt="Screenshot 2025-12-15 174938" src="https://github.com/user-attachments/assets/7377f174-7e87-4e34-821c-3eefe7ba5c5b" width="50%" />
 </p>
-
 
 
