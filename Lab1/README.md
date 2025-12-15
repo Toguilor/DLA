@@ -62,8 +62,9 @@ Two model variants were implemented: a Simple CNN and a Residual CNN. The Simple
 <img width="1712" height="1048" alt="Screenshot 2025-12-15 174925" src="https://github.com/user-attachments/assets/bff709d1-b6e0-40d8-9603-b9a6b2af141d" />
 <img width="1719" height="1042" alt="Screenshot 2025-12-15 174938" src="https://github.com/user-attachments/assets/0674d1bb-4750-4f41-98cb-af3c93a4a613" />
 
-## 
-This exercise evaluates the quality of the learned representations by using the pretrained CNN as a fixed feature extractor.
+## Exercise 2.1: *Fine-tune* a pre-trained model
+This exercise evaluates the quality of the learned representations by using the pretrained CNN as a fixed feature extractor and to transfer the CIFAR-10 pretrained model to a more challenging dataset (CIFAR-100) using fine-tuning.
+
 Instead of training the classifier end-to-end, features are extracted from the network using:
 model.forward_features(x)
 
@@ -76,3 +77,23 @@ Feature Extraction
 
 Baseline Classifier used is: <b> K-Nearest Neighbors (KNN) </b>
 
+### Fine-Tuning Strategy
+The following steps are applied:
+- Load the pretrained CIFAR-10 model
+- Replace the final classification layer (10 → 100 classes)
+- Freeze most of the network parameters
+- Unfreeze selected deeper layers (layer3)
+- Train only the unfrozen parameters
+
+### Optimizer and Loss:
+- Optimizer: Adam (learning rate = 1e-4)
+- Loss: Cross-Entropy Loss
+Only parameters with requires_grad=True are passed to the optimizer.
+
+### Results
+Fine-tuning leads to:
+- Faster convergence compared to training from scratch
+- Improved generalization on CIFAR-100
+- Better performance than classical baselines
+
+<img width="545" height="372" alt="image" src="https://github.com/user-attachments/assets/7f301af7-5fb5-4497-867c-8e6d25ca8607" />
