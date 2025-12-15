@@ -52,6 +52,14 @@ Residual connections provided faster convergence (training stopped at epoch 15 v
 <img width="1320" height="699" alt="image" src="https://github.com/user-attachments/assets/801325f3-a950-411f-b1ef-616dd8d93d85" />
 
 ## Exercise 1.3: Rinse and Repeat (but with a CNN)
+Coming Soon - Expected Tasks:
+- Implement residual blocks for MLPs
+- Compare plain vs. residual networks of same depth
+- Measure improvement in training dynamics
+
+Two model variants were implemented: a Simple CNN and a Residual CNN. The Simple CNN applies successive convolutional layers with ReLU activation, doubling the number of channels at each step and applying max pooling every two layers. After feature extraction, a fully connected layer reduces the feature map to 128 neurons, followed by dropout and the final classification layer. The Residual CNN starts with a single convolution + batch normalization + ReLU block, followed by a configurable number of ResNet BasicBlocks (as in the original ResNet architecture), which implement skip connections over sequences of 3×3 convolutions.
+
+<img width="1713" height="1021" alt="Screenshot 2025-12-15 173551" src="https://github.com/user-attachments/assets/cb6f23a5-47b8-40b6-88ff-9b8640ac81dc" />
 
 
 
