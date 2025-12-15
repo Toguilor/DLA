@@ -1,0 +1,58 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            ld9hau64nothilonr7ohrp3zfcd1col2:
+                codePath: Lab1-CNNs.ipynb
+                codePathLocal: Lab1-CNNs.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "1021821579264"
+                        used: "485448028160"
+                email: lorictongo19@gmail.com
+                executable: c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\python.exe
+                gpu: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+                      uuid: GPU-29aefb43-eb0b-a2cd-ae3f-d4058d477095
+                host: Loric
+                memory:
+                    total: "14702026752"
+                os: Windows-11-10.0.26100-SP0
+                program: c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Laboratori\DeepLearningApplication\Lab1\Lab1-CNNs.ipynb
+                python: CPython 3.12.3
+                root: c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Laboratori\DeepLearningApplication\Lab1
+                startedAt: "2025-09-22T09:58:32.728632Z"
+                writerId: ld9hau64nothilonr7ohrp3zfcd1col2
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.12.3
+            "5": 0.21.1
+            "8":
+                - 1
+                - 3
+            "10":
+                - 20
+            "12": 0.21.1
+            "13": windows-amd64

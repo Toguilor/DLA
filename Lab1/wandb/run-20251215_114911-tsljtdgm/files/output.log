@@ -1,0 +1,90 @@
+Epoch 1/50
+  Train: Loss=0.3538, Acc=0.8922
+  Val:   Loss=0.1797, Acc=0.9472
+
+Epoch 2/50
+  Train: Loss=0.1622, Acc=0.9503
+  Val:   Loss=0.1664, Acc=0.9514
+
+Epoch 3/50
+  Train: Loss=0.1199, Acc=0.9624
+  Val:   Loss=0.1172, Acc=0.9632
+
+Epoch 4/50
+  Train: Loss=0.0945, Acc=0.9705
+  Val:   Loss=0.1228, Acc=0.9628
+
+Epoch 5/50
+  Train: Loss=0.0803, Acc=0.9748
+  Val:   Loss=0.0995, Acc=0.9686
+
+Epoch 6/50
+  Train: Loss=0.0703, Acc=0.9773
+  Val:   Loss=0.1050, Acc=0.9702
+
+Epoch 7/50
+  Train: Loss=0.0607, Acc=0.9802
+  Val:   Loss=0.1232, Acc=0.9644
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 8/50
+  Train: Loss=0.0563, Acc=0.9814
+  Val:   Loss=0.1090, Acc=0.9696
+
+Epoch 9/50
+  Train: Loss=0.0476, Acc=0.9842
+  Val:   Loss=0.0806, Acc=0.9754
+
+Epoch 10/50
+  Train: Loss=0.0431, Acc=0.9852
+  Val:   Loss=0.1064, Acc=0.9742
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 11/50
+  Train: Loss=0.0388, Acc=0.9872
+  Val:   Loss=0.0945, Acc=0.9762
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 12/50
+  Train: Loss=0.0367, Acc=0.9879
+  Val:   Loss=0.0822, Acc=0.9790
+
+Epoch 13/50
+  Train: Loss=0.0346, Acc=0.9889
+  Val:   Loss=0.0978, Acc=0.9786
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 14/50
+  Train: Loss=0.0326, Acc=0.9890
+  Val:   Loss=0.0885, Acc=0.9780
+
+Epoch 15/50
+  Train: Loss=0.0302, Acc=0.9900
+  Val:   Loss=0.0873, Acc=0.9772
+
+Epoch 16/50
+  Train: Loss=0.0284, Acc=0.9904
+  Val:   Loss=0.1061, Acc=0.9740
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 17/50
+  Train: Loss=0.0276, Acc=0.9906
+  Val:   Loss=0.0991, Acc=0.9746
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 18/50
+  Train: Loss=0.0259, Acc=0.9915
+  Val:   Loss=0.1002, Acc=0.9776
+
+⚠️ Possible overfitting detected (3/5)
+Epoch 19/50
+  Train: Loss=0.0244, Acc=0.9917
+  Val:   Loss=0.1079, Acc=0.9778
+
+⚠️ Possible overfitting detected (4/5)
+Epoch 20/50
+  Train: Loss=0.0222, Acc=0.9922
+  Val:   Loss=0.1141, Acc=0.9764
+
+⚠️ Possible overfitting detected (5/5)
+🛑 Stopping: Validation loss keeps increasing (5 epochs)

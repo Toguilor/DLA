@@ -1,0 +1,78 @@
+Epoch 1/50
+  Train: Loss=1.7301, Acc=0.3568
+  Val:   Loss=1.6841, Acc=0.4012
+
+Epoch 2/50
+  Train: Loss=1.3055, Acc=0.5264
+  Val:   Loss=1.2150, Acc=0.5708
+
+Epoch 3/50
+  Train: Loss=1.0763, Acc=0.6156
+  Val:   Loss=1.1412, Acc=0.5974
+
+Epoch 4/50
+  Train: Loss=0.9385, Acc=0.6697
+  Val:   Loss=1.0732, Acc=0.6236
+
+Epoch 5/50
+  Train: Loss=0.8270, Acc=0.7082
+  Val:   Loss=0.8752, Acc=0.6952
+
+Epoch 6/50
+  Train: Loss=0.7530, Acc=0.7364
+  Val:   Loss=0.7402, Acc=0.7364
+
+Epoch 7/50
+  Train: Loss=0.6959, Acc=0.7561
+  Val:   Loss=0.7218, Acc=0.7490
+
+Epoch 8/50
+  Train: Loss=0.6494, Acc=0.7732
+  Val:   Loss=0.6202, Acc=0.7836
+
+Epoch 9/50
+  Train: Loss=0.6133, Acc=0.7869
+  Val:   Loss=0.6404, Acc=0.7818
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 10/50
+  Train: Loss=0.5787, Acc=0.7982
+  Val:   Loss=0.6328, Acc=0.7838
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 11/50
+  Train: Loss=0.5493, Acc=0.8098
+  Val:   Loss=0.5999, Acc=0.7950
+
+Epoch 12/50
+  Train: Loss=0.5192, Acc=0.8208
+  Val:   Loss=0.5981, Acc=0.7958
+
+Epoch 13/50
+  Train: Loss=0.4981, Acc=0.8279
+  Val:   Loss=0.5827, Acc=0.8058
+
+Epoch 14/50
+  Train: Loss=0.4736, Acc=0.8394
+  Val:   Loss=0.5049, Acc=0.8296
+
+Epoch 15/50
+  Train: Loss=0.4544, Acc=0.8451
+  Val:   Loss=0.5230, Acc=0.8226
+
+⚠️ Possible overfitting detected (3/5)
+Epoch 16/50
+  Train: Loss=0.4397, Acc=0.8494
+  Val:   Loss=0.4550, Acc=0.8446
+
+Epoch 17/50
+  Train: Loss=0.4246, Acc=0.8549
+  Val:   Loss=0.5047, Acc=0.8310
+
+⚠️ Possible overfitting detected (4/5)
+Epoch 18/50
+  Train: Loss=0.4083, Acc=0.8584
+  Val:   Loss=0.4754, Acc=0.8448
+
+⚠️ Possible overfitting detected (5/5)
+🛑 Stopping: Validation loss keeps increasing (5 epochs)

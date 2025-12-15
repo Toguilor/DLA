@@ -1,0 +1,214 @@
+Epoch 1/50
+  Train: Loss=1.6053, Acc=0.4128
+  Val:   Loss=1.4200, Acc=0.4832
+
+Epoch 2/50
+  Train: Loss=1.2608, Acc=0.5459
+  Val:   Loss=1.1186, Acc=0.6012
+
+Epoch 3/50
+  Train: Loss=1.0644, Acc=0.6215
+  Val:   Loss=0.9714, Acc=0.6596
+
+Epoch 4/50
+  Train: Loss=0.9596, Acc=0.6632
+  Val:   Loss=0.9116, Acc=0.6738
+
+Epoch 5/50
+  Train: Loss=0.8809, Acc=0.6892
+  Val:   Loss=0.8531, Acc=0.7040
+
+Epoch 6/50
+  Train: Loss=0.8364, Acc=0.7084
+  Val:   Loss=0.8291, Acc=0.7132
+
+Epoch 7/50
+  Train: Loss=0.7893, Acc=0.7246
+  Val:   Loss=0.7611, Acc=0.7334
+
+Epoch 8/50
+  Train: Loss=0.7542, Acc=0.7361
+  Val:   Loss=0.7440, Acc=0.7502
+
+Epoch 9/50
+  Train: Loss=0.7296, Acc=0.7467
+  Val:   Loss=0.7415, Acc=0.7466
+
+Epoch 10/50
+  Train: Loss=0.7005, Acc=0.7535
+  Val:   Loss=0.7251, Acc=0.7526
+
+Epoch 11/50
+  Train: Loss=0.6835, Acc=0.7625
+  Val:   Loss=0.7225, Acc=0.7516
+
+Epoch 12/50
+  Train: Loss=0.6651, Acc=0.7694
+  Val:   Loss=0.6850, Acc=0.7576
+
+Epoch 13/50
+  Train: Loss=0.6496, Acc=0.7739
+  Val:   Loss=0.6845, Acc=0.7690
+
+⚠️ Δ(val_loss) < 0.001 for 1 epochs
+Epoch 14/50
+  Train: Loss=0.6353, Acc=0.7778
+  Val:   Loss=0.6937, Acc=0.7674
+
+Epoch 15/50
+  Train: Loss=0.6224, Acc=0.7845
+  Val:   Loss=0.6631, Acc=0.7768
+
+Epoch 16/50
+  Train: Loss=0.6097, Acc=0.7879
+  Val:   Loss=0.6672, Acc=0.7702
+
+Epoch 17/50
+  Train: Loss=0.5923, Acc=0.7949
+  Val:   Loss=0.6624, Acc=0.7764
+
+Epoch 18/50
+  Train: Loss=0.5873, Acc=0.7958
+  Val:   Loss=0.6516, Acc=0.7794
+
+Epoch 19/50
+  Train: Loss=0.5748, Acc=0.8006
+  Val:   Loss=0.6461, Acc=0.7780
+
+Epoch 20/50
+  Train: Loss=0.5640, Acc=0.8025
+  Val:   Loss=0.6428, Acc=0.7856
+
+Epoch 21/50
+  Train: Loss=0.5580, Acc=0.8059
+  Val:   Loss=0.6674, Acc=0.7776
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 22/50
+  Train: Loss=0.5569, Acc=0.8053
+  Val:   Loss=0.6415, Acc=0.7872
+
+Epoch 23/50
+  Train: Loss=0.5443, Acc=0.8115
+  Val:   Loss=0.6314, Acc=0.7870
+
+Epoch 24/50
+  Train: Loss=0.5362, Acc=0.8134
+  Val:   Loss=0.6215, Acc=0.7876
+
+Epoch 25/50
+  Train: Loss=0.5348, Acc=0.8136
+  Val:   Loss=0.6389, Acc=0.7780
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 26/50
+  Train: Loss=0.5250, Acc=0.8168
+  Val:   Loss=0.6231, Acc=0.7900
+
+Epoch 27/50
+  Train: Loss=0.5167, Acc=0.8208
+  Val:   Loss=0.6287, Acc=0.7922
+
+Epoch 28/50
+  Train: Loss=0.5200, Acc=0.8202
+  Val:   Loss=0.6300, Acc=0.7898
+
+Epoch 29/50
+  Train: Loss=0.5102, Acc=0.8226
+  Val:   Loss=0.6133, Acc=0.7924
+
+Epoch 30/50
+  Train: Loss=0.4995, Acc=0.8262
+  Val:   Loss=0.6165, Acc=0.7918
+
+Epoch 31/50
+  Train: Loss=0.4914, Acc=0.8294
+  Val:   Loss=0.6137, Acc=0.7932
+
+Epoch 32/50
+  Train: Loss=0.4923, Acc=0.8263
+  Val:   Loss=0.6393, Acc=0.7868
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 33/50
+  Train: Loss=0.4835, Acc=0.8301
+  Val:   Loss=0.5984, Acc=0.7990
+
+Epoch 34/50
+  Train: Loss=0.4863, Acc=0.8295
+  Val:   Loss=0.6111, Acc=0.7952
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 35/50
+  Train: Loss=0.4760, Acc=0.8357
+  Val:   Loss=0.6295, Acc=0.7928
+
+⚠️ Possible overfitting detected (3/5)
+Epoch 36/50
+  Train: Loss=0.4720, Acc=0.8351
+  Val:   Loss=0.5988, Acc=0.8012
+
+Epoch 37/50
+  Train: Loss=0.4674, Acc=0.8381
+  Val:   Loss=0.5928, Acc=0.7998
+
+Epoch 38/50
+  Train: Loss=0.4691, Acc=0.8376
+  Val:   Loss=0.5970, Acc=0.8016
+
+Epoch 39/50
+  Train: Loss=0.4598, Acc=0.8394
+  Val:   Loss=0.5970, Acc=0.8074
+
+⚠️ Δ(val_loss) < 0.001 for 1 epochs
+Epoch 40/50
+  Train: Loss=0.4563, Acc=0.8418
+  Val:   Loss=0.6076, Acc=0.7968
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 41/50
+  Train: Loss=0.4578, Acc=0.8394
+  Val:   Loss=0.6116, Acc=0.8080
+
+⚠️ Possible overfitting detected (2/5)
+Epoch 42/50
+  Train: Loss=0.4607, Acc=0.8390
+  Val:   Loss=0.5763, Acc=0.8120
+
+Epoch 43/50
+  Train: Loss=0.4522, Acc=0.8424
+  Val:   Loss=0.5907, Acc=0.8058
+
+⚠️ Possible overfitting detected (3/5)
+Epoch 44/50
+  Train: Loss=0.4452, Acc=0.8441
+  Val:   Loss=0.5898, Acc=0.8044
+
+⚠️ Possible overfitting detected (4/5)
+⚠️ Δ(val_loss) < 0.001 for 1 epochs
+Epoch 45/50
+  Train: Loss=0.4410, Acc=0.8467
+  Val:   Loss=0.5816, Acc=0.8022
+
+Epoch 46/50
+  Train: Loss=0.4454, Acc=0.8443
+  Val:   Loss=0.5683, Acc=0.8172
+
+Epoch 47/50
+  Train: Loss=0.4351, Acc=0.8484
+  Val:   Loss=0.5753, Acc=0.8118
+
+Epoch 48/50
+  Train: Loss=0.4396, Acc=0.8485
+  Val:   Loss=0.6076, Acc=0.7994
+
+⚠️ Possible overfitting detected (1/5)
+Epoch 49/50
+  Train: Loss=0.4367, Acc=0.8484
+  Val:   Loss=0.5752, Acc=0.8202
+
+Epoch 50/50
+  Train: Loss=0.4310, Acc=0.8506
+  Val:   Loss=0.5859, Acc=0.8054
+
+⚠️ Possible overfitting detected (1/5)

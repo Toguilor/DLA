@@ -1,0 +1,12 @@
+{"time":"2025-12-15T11:49:11.9906029+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-12-15T11:49:12.9113671+01:00","level":"INFO","msg":"stream: created new stream","id":"tsljtdgm"}
+{"time":"2025-12-15T11:49:12.9113671+01:00","level":"INFO","msg":"handler: started","stream_id":"tsljtdgm"}
+{"time":"2025-12-15T11:49:12.9113671+01:00","level":"INFO","msg":"stream: started","id":"tsljtdgm"}
+{"time":"2025-12-15T11:49:12.9119195+01:00","level":"INFO","msg":"sender: started","stream_id":"tsljtdgm"}
+{"time":"2025-12-15T11:49:12.9119195+01:00","level":"INFO","msg":"writer: started","stream_id":"tsljtdgm"}
+{"time":"2025-12-15T11:58:55.602406+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7558459,"progress":"2.0KB/2.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.4987717,"progress":"2.0KB/2.0KB"}],"total_operations":2}}
+{"time":"2025-12-15T11:58:55.6767222+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-15T11:58:56.206189+01:00","level":"INFO","msg":"stream: closing","id":"tsljtdgm"}
+{"time":"2025-12-15T11:58:56.206189+01:00","level":"INFO","msg":"handler: closed","stream_id":"tsljtdgm"}
+{"time":"2025-12-15T11:58:56.2072048+01:00","level":"INFO","msg":"sender: closed","stream_id":"tsljtdgm"}
+{"time":"2025-12-15T11:58:56.2072048+01:00","level":"INFO","msg":"stream: closed","id":"tsljtdgm"}
