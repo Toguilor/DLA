@@ -1,0 +1,5 @@
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\transformers\models\distilbert\modeling_distilbert.py:401: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:555.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+C:\Users\loric\AppData\Local\Temp\ipykernel_6852\3831672373.py:33: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+{'eval_loss': 0.4238526523113251, 'eval_accuracy': 0.8189493433395872, 'eval_f1': 0.8337639965546942, 'eval_runtime': 2.9291, 'eval_samples_per_second': 363.941, 'eval_steps_per_second': 22.874, 'epoch': 3.0}

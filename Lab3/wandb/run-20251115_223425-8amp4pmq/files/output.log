@@ -1,0 +1,45 @@
+{'eval_loss': 0.4510103166103363, 'eval_accuracy': 0.8386491557223265, 'eval_f1': 0.8422018348623853, 'eval_runtime': 2.9363, 'eval_samples_per_second': 363.041, 'eval_steps_per_second': 22.818, 'epoch': 3.0}
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\836281729.py:39: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+{'eval_loss': 0.4981665313243866, 'eval_accuracy': 0.8442776735459663, 'eval_f1': 0.8439849624060151, 'eval_runtime': 2.9421, 'eval_samples_per_second': 362.33, 'eval_steps_per_second': 22.773, 'epoch': 3.0}
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\mapping_func.py:73: UserWarning: You are trying to modify a model with PEFT for a second time. If you want to reload the model with a different config, make sure to call `.unload()` before.
+  warnings.warn(
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\tuners\tuners_utils.py:196: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\3494172067.py:40: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\3494172067.py:40: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\4217540051.py:40: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\4217540051.py:40: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\4217540051.py:40: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\mapping_func.py:73: UserWarning: You are trying to modify a model with PEFT for a second time. If you want to reload the model with a different config, make sure to call `.unload()` before.
+  warnings.warn(
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\tuners\tuners_utils.py:196: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\140927745.py:41: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\mapping_func.py:73: UserWarning: You are trying to modify a model with PEFT for a second time. If you want to reload the model with a different config, make sure to call `.unload()` before.
+  warnings.warn(
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\tuners\tuners_utils.py:196: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\mapping_func.py:73: UserWarning: You are trying to modify a model with PEFT for a second time. If you want to reload the model with a different config, make sure to call `.unload()` before.
+  warnings.warn(
+c:\Users\loric\OneDrive\Documents\LM_IA_Unifi\Anaconda3\Lib\site-packages\peft\tuners\tuners_utils.py:196: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\4151993028.py:41: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+C:\Users\loric\AppData\Local\Temp\ipykernel_38276\3351198289.py:50: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForSequenceClassification`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+{'eval_loss': 0.5050796866416931, 'eval_accuracy': 0.8433395872420263, 'eval_f1': 0.8431924882629108, 'eval_runtime': 2.1294, 'eval_samples_per_second': 500.617, 'eval_steps_per_second': 31.465, 'epoch': 3.0}
