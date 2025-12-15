@@ -23,3 +23,19 @@ Subsections:
 - Integration with Weights & Biases for monitoring
 - Early stopping mechanisms and overfitting detection
 
+Implementation Details:
+Provided example uses a 3-layer MLP: 28×28 → 256 → 128 → 10
+Includes ReLU activations between layers
+Uses Adam optimizer with learning rate 0.001
+Implements CrossEntropyLoss for multi-class classification
+Features early stopping and overfitting detection mechanisms
+
+The training converged in fewer than the maximum allowed epochs thanks to early stopping.
+On the test set, the model achieved:
+Test Loss: 0.1053
+Test Accuracy: 97.39%
+Test Precision (weighted): 97.43%
+
+Below are the metrics tracked with Weights & Biases (WandB):
+
+<img width="1311" height="699" alt="image" src="https://github.com/user-attachments/assets/dfda0347-118e-444f-a0d1-50025e1714c4" />
