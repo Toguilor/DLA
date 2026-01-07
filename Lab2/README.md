@@ -12,4 +12,4 @@ The lab is structured progressively:
 
 All experiments are implemented in **PyTorch**.
 
-## __Exercice 1__
+## <u>Exercice 1</u>
