@@ -11,3 +11,5 @@ The lab is structured progressively:
 - Empirical analysis of learning stability and performance.
 
 All experiments are implemented in **PyTorch**.
+
+## __Exercice 1__
