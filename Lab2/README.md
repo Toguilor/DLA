@@ -1,3 +1,5 @@
+# Deep Reinforcement Learning Laboratory
+
 ## Description
 This laboratory focuses on policy gradient methods for **Deep Reinforcement Learning***, with a particular emphasis on the **REINFORCE** algorithm and its variants.
 The objective is to understand, implement, and analyze the behavior of policy-based agents on classical control environments from ***Gymnasium***, such as **CartPole** and **LunarLander**.
