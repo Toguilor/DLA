@@ -22,4 +22,5 @@ The goal of this exercise is to implement the REINFORCE algorithm, and train an 
 - Observations: The average score increased from approximately 15 (initial score) to a maximum of 500.00 around episode 730.
 Although the agent reached the maximum score, some instability (performance drops) was observed, typical of REINFORCE without more advanced regularization mechanisms.
 
+<img src="C:\Users\loric\OneDrive\Images\Captures d’écran\lab2_1.jpg" alt="Texte alternatif" width="200" height="100">
 
