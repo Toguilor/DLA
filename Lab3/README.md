@@ -35,6 +35,8 @@ To improve performance by re-training the entire DistilBERT model—including bo
 |3     |	0.164300|	0.493393|	0.848968|	0.851064|
 
 Results on test:
+|Metrics| Values|
+|:------|:------|
 |loss| 0.471|
 |accuracy| 0.839|
 |f1| 0.844|
@@ -57,11 +59,12 @@ To reduce the computational cost of adaptation by using LoRA (Low-Rank Adaptatio
 |3     |	0.142800|	0.437866|	0.849906|	0.849906|
 
 Results on test:
+|Metrics| Values|
+|:------|:------|
 |loss| 0.50|
 |eval_accuracy| 0.85|
 |eval_f1| 0.851|
 
-- Test Accuracy: `0.843`.
-- Efficiency: Training was significantly faster, requiring approximately 2 minutes for 3 epochs compared to the longer duration required for full fine-tuning.
+Training was significantly faster, requiring approximately 2 minutes for 3 epochs compared to the longer duration required for full fine-tuning.
 
 LoRA achieved performance comparable to (and in this specific run, slightly better than) full fine-tuning. This demonstrates that parameter-efficient methods can achieve state-of-the-art results with much lower resource requirements.
