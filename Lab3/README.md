@@ -30,9 +30,14 @@ To improve performance by re-training the entire DistilBERT model—including bo
 
 |Epoch | Training Loss | Validation Loss | Accuracy |	F1|
 |:----:|:-------------:|:---------------:|:--------:|:-:|
-| 1    |	0.425300|	0.431510|	0.812383|	0.833055|
-| 2    |	0.254200|	0.410136|	0.839587|	0.843836|
-| 3    |	0.162600|	0.501442|	0.846154|	0.848708|
+|1     |	0.415600|	0.416507|	0.818011|	0.836700|
+|2     |	0.254500|	0.411208|	0.841463|	0.845943|
+|3     |	0.164300|	0.493393|	0.848968|	0.851064|
+
+Results on test:
+|loss| 0.471|
+|accuracy| 0.839|
+|f1| 0.844|
 
 Full fine-tuning resulted in a significant performance boost (approximately 7% higher accuracy than the baseline) as the model learned to recognize sentiment-specific patterns in the text.
 
@@ -45,6 +50,17 @@ To reduce the computational cost of adaptation by using LoRA (Low-Rank Adaptatio
 - Training: The same training parameters from Exercise 2 were used, but only a fraction of the total parameters were updated.
 
 **Results**:
+|Epoch | Training Loss | Validation Loss | Accuracy |	F1|
+|:----:|:-------------:|:---------------:|:--------:|:-:|
+|1     |	0.142100|	0.441362|	0.845216|	0.846797|
+|2     |	0.139300|	0.434065|	0.848968|	0.849110|
+|3     |	0.142800|	0.437866|	0.849906|	0.849906|
+
+Results on test:
+|loss| 0.50|
+|eval_accuracy| 0.85|
+|eval_f1| 0.851|
+
 - Test Accuracy: `0.843`.
 - Efficiency: Training was significantly faster, requiring approximately 2 minutes for 3 epochs compared to the longer duration required for full fine-tuning.
 
