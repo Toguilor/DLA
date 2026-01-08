@@ -13,8 +13,8 @@ The goal was to establish a stable baseline by using a pre-trained DistilBERT mo
 - Classification: A Scikit-learn SVM (Support Vector Machine) with a linear kernel was trained on these extracted features.
 
 **Results**:
-Validation Accuracy: `0.770`.
-Test Accuracy: `0.765`.
+- Validation Accuracy: `0.770`.
+- Test Accuracy: `0.765`.
 
 These results serve as our starting point. While DistilBERT has a strong general understanding of language, the features are "static" because the model was not specifically adapted to the nuances of movie review vocabulary.
 
