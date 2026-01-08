@@ -8,7 +8,15 @@ The repository is structured as follow:
 1. Methods: MLP, CNNs, ResNet
 2. Datasets: MNIST, CIFAR-10, CIFAR-10
 
+We can see this laboratory implementation 👉 [here](Lab1/README.md) 👈
+
 ## Laboratory 2: Deep Reinforcement Learning
 1. Methods: Policy Gradient
 2. Environnement: CartPole, Lunar Lander
+   
+We can see this laboratory implementation 👉 [here](Lab2/README.md) 👈
+
+## Laboratory 3: Transformer
+1. Methods: Distilbert, SVM, LoRa
+
 We can see this laboratory implementation 👉 [here](Lab3/README.md) 👈
