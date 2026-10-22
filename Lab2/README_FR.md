@@ -117,7 +117,6 @@ J'ai d'abord exploré l'environnement (`reset()`, `observation_space`, `action_s
 - Les nouvelles métriques révèlent clairement l'**instabilité de REINFORCE** avec un learning rate élevé :
   - **Run 1** : l'agent atteint ~250, **s'effondre à ~10** entre les épisodes 200 et 370, atteint le maximum de 500 vers l'épisode 550, s'effondre de nouveau et termine vers 100.
   - **Run 2**, avec la même configuration : la performance oscille entre ~70 et ~240 sans jamais se stabiliser, et termine à 89.
-  - Lors d'une exécution précédente du même code, l'agent terminait à 500.
 - Avec **un seul run, le résultat final dépend essentiellement du hasard**. Avec lr = 0.01 et un estimateur de gradient à forte variance, quelques mauvaises mises à jour suffisent à détruire une bonne politique. Comme les méthodes policy gradient sont *on-policy*, une mauvaise politique collecte de mauvaises données, ce qui ralentit le retour à une bonne politique.
 
 Ces observations motivent les deux améliorations suivantes : **réduire la variance du gradient avec une baseline**, et **comparer les méthodes sur plusieurs seeds** plutôt que sur un seul run.
